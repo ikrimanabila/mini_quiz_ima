@@ -20,11 +20,12 @@ public class Mini_quiz {
         // TODO code application logic here
         
         int nip,golongan,gp = 0,tunjangan = 0,potongan = 0,gt;
-        String nama,gol;
+        String gol,nama;
         Scanner input=new Scanner(System.in);
         
         System.out.print("masukan nomer induk pegawai : ");
         nip=input.nextInt();
+        input.nextLine();
         System.out.print("masukan nama : ");
         nama=input.nextLine();
         System.out.print("masukan golongan [1/2/3/4] : ");
